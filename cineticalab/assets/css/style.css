@@ -1,0 +1,242 @@
+*{
+    margin: 0!important;
+    padding: 0!important;
+    font-family: 'Amiri', serif;
+    color: #f0f0f0;
+    
+    
+}
+
+
+
+.container-fluid{
+    background: -webkit-gradient(linear, left top, left bottom, from(#7E649F), to(#130D36));
+}
+.barranav {
+    
+    background-color: #412856;
+    height: 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    color: #f0f0f0;
+    font-size: 10vh!important;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 66px;
+}
+
+
+
+.backgroundPrincipal img{
+    height: 450px;
+}
+
+#textoDev{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#textoDev p{
+    text-align: center;
+    font-size: 23px;
+    margin-left: 20px!important;
+    
+    
+}
+
+#rowButton{
+    display: flex;
+    justify-content: center;
+}
+
+.row h3{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #AD72DF;
+    color: #f0f0f0;
+    width: 200px;
+    padding: 4px 4px 4px 4px;
+    font-size: 18px;
+    line-height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    
+}
+
+.btn:hover{
+    color: #f0f0f0;
+    background-color: #412856;
+
+}
+
+#profiles{
+    
+    display: flex;
+    justify-content: center!important;
+    padding: 20px 20px 20px 20px!important;
+    
+    
+
+}
+
+#profiles img{
+    margin-top: 25px!important;
+}
+
+
+#profiles p{
+    text-align: center;
+    
+}
+
+.profesionalTypeOf{
+    margin-top: 5px!important;
+    margin-bottom: 20px!important;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px!important;
+}
+
+.skill{
+    font-weight: bolder;
+}
+
+.phrase{
+    margin-top: 6px!important;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 20px!important;
+    padding: 0 20px 0 20px!important;
+}
+
+#question {
+    /* padding: 25px 0 25px 0!important; */
+    font-size: 60px!important;
+    text-align: center;
+    line-height: 12vh!important;
+    /* margin: 30px 0 0 80px!important; */
+    
+}
+
+#questionMark{
+    font-weight: 700!important;
+}
+
+.sectionDescription{
+    margin-bottom: 30px!important;
+}
+
+.sectionDescription .title{
+    font-size: 40px!important;
+    border-right: 2px solid white;
+    text-align: right;
+    margin-bottom: 20px!important;
+    padding-right: 30px!important;
+    line-height: 40px;
+    height: 170px;
+    padding-top: 20px!important;
+   
+}
+
+.sectionDescription .description{
+    padding: 3% 10% 1% 5%!important;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+#sectionDescriptionTwo .title{
+    font-size: 40px!important;
+    border-right: 2px solid white;    
+    text-align: right;
+    
+    margin-bottom: 20px!important;
+    padding-right: 30px!important;
+    line-height: 40px;
+    height: 180px;
+    padding-top: 40px!important;
+}
+
+#sectionDescriptionTwo .description{
+    padding: 5% 10% 1% 5%!important;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.footer{
+    background-color: #000000;
+    color: #f0f0f0;
+    font-size: 20px;
+    padding-top: 60px!important;
+    padding-bottom: 60px!important;
+
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+
+    h1{
+        font-size: 50px;
+    }
+    #profile{
+        text-align: justify;
+    }
+
+    #textoDev p{
+        padding: 28px!important;
+        text-align: justify;
+        margin-left: 0!important;
+    }
+    .backgroundPrincipal img{
+        height: 231px;
+
+    }
+
+    #question{
+        font-size: 36px!important;
+        line-height: 35px!important;
+        padding: 0 15px 0 15px!important;
+    }
+
+    .sectionDescription .title{
+        border-right: none;
+        border-left: 3px solid white;
+        width: auto;
+        text-align: left;
+        margin: 20px!important;
+        padding: 20px!important;
+    }
+
+    .sectionDescription .description{
+        padding: 30px!important;
+    }
+
+    #sectionDescriptionTwo .title{
+        margin: 20px!important;
+        /* padding: 20px!important; */
+        border-right: 3px solid white;
+    }
+
+    #sectionDescriptionTwo .description{
+        padding: 30px!important;
+        
+    }
+  }
+
+
+
